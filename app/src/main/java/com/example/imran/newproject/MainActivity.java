@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected Map<String, String> getParams() {
                 Map<String, String> params = new HashMap<>();
-                params.put("postid", postid);
+                params.put("postid", "1");
                 return params;
             };
         };
